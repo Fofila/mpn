@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="mpn.js"></script>
+  <link rel="stylesheet" href="mpn.css">
+</head>
+<body>
+  <main>
+    <section id="mpn" aria-live="polite">
+      <div class="mpn-not-container">
+        <div class="mpn-not">
+          <button class="btn-close">X</button>
+          <div class="mpn-media-container"></div>
+          <!-- need random ID generator for aria-labelledby -->
+          <p class="mpn-title">
+            <span class="mpn-sender">Fofila</span>: 
+            <span class="mpn-text">Generic notification</span>
+          </p>
+          <!-- need random ID generator for aria-describedby -->
+          <p class="mpn-description">A normal message in a notification. This will be used as a description for the notification.</p>
+          <div class="mpn-attachment-container"></div>
+          <div class="mpn-cta-container"></div>
+          <p class="mpn-time">03/06/2024 - 08:14</p>
+        </div>
+
+        <div class="mpn-not mpn-sent">
+          <button class="btn-close">X</button>
+          <div class="mpn-media-container"></div>
+          <!-- need random ID generator for aria-labelledby -->
+          <p class="mpn-title">
+            <span class="mpn-sender">Fofila</span>: 
+            <span class="mpn-text">Generic notification</span>
+          </p>
+          <!-- need random ID generator for aria-describedby -->
+          <p class="mpn-description">A normal message in a notification. This will be used as a description for the notification.</p>
+          <div class="mpn-attachment-container"></div>
+          <div class="mpn-cta-container"></div>
+          <p class="mpn-time">03/06/2024 - 08:14</p>
+        </div>
+
+        <div class="mpn-not mpn-received">
+          <button class="btn-close">X</button>
+          <div class="mpn-media-container"></div>
+          <!-- need random ID generator for aria-labelledby -->
+          <p class="mpn-title">
+            <span class="mpn-sender">Fofila</span>: 
+            <span class="mpn-text">Generic notification</span>
+          </p>
+          <!-- need random ID generator for aria-describedby -->
+          <p class="mpn-description">A normal message in a notification. This will be used as a description for the notification.</p>
+          <div class="mpn-attachment-container"></div>
+          <div class="mpn-cta-container"></div>
+          <p class="mpn-time">03/06/2024 - 08:14</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div><button id="Generic">Generic</button></div>
+      <div><button id="Important">Important</button></div>
+      <div><button id="Alert">Alert</button></div>
+      <div><button id="Warning">Warning</button></div>
+      <div><button id="CTA1">1 CTA</button></div>
+      <div><button id="CTA2">2 CTA</button></div>
+      <div><button id="CTA3">3 CTA</button></div>
+      <div><button id="CTA4">4 CTA</button></div>
+      <div><button id="Attachment">Attachment</button></div>
+      <div><button id="Audio">Audio</button></div>
+      <div><button id="Video">Video</button></div>
+      <div><button id="Image">Image</button></div>
+    </section>
+  </main>
+</body>
+</html>
